@@ -1,0 +1,46 @@
+[2026-02-24 16:34:48.186] INFO: Starting Bongo Cat Overlay v3.6.1
+[2026-02-24 16:34:48.187] INFO: Loaded configuration from bongocat.conf
+[2026-02-24 16:34:48.187] INFO: PID file created: /tmp/bongocat.pid
+[2026-02-24 16:34:48.187] INFO: bongocat PID: 247948
+[2026-02-24 16:34:48.187] INFO: Signal handler configure (fd=4)
+[2026-02-24 16:34:48.187] INFO: No config watcher, continuing without hot-reload
+[2026-02-24 16:34:48.187] INFO: Initializing input monitoring system for 1 devices
+[2026-02-24 16:34:48.187] INFO: Input monitoring started
+[2026-02-24 16:34:48.187] INFO: Initializing update monitoring system
+[2026-02-24 16:34:48.187] INFO: Input monitoring started
+[2026-02-24 16:34:48.187] INFO: Initializing animation system
+[2026-02-24 16:34:48.187] INFO: Animation system initialized successfully with embedded assets; load assets in 0.002ms (0.000002sec)
+[2026-02-24 16:34:48.187] INFO: Initializing Wayland connection
+[2026-02-24 16:34:48.187] INFO: wl_registry.global: Foreign toplevel manager bound - using Wayland protocol for fullscreen detection
+[2026-02-24 16:34:48.188] INFO: Detected screen: 1920x1080 (transform: 0)
+[2026-02-24 16:34:48.188] INFO: Detected screen: 1920x1080 (transform: 0)
+[2026-02-24 16:34:48.200] WARNING: Falling back to first output: HDMI-A-1
+[2026-02-24 16:34:48.200] INFO: Detected screen width: 1920
+[2026-02-24 16:34:48.201] INFO: Wayland initialization complete (1920x80 buffer)
+[2026-02-24 16:34:48.201] INFO: Starting animation thread
+[2026-02-24 16:34:48.209] INFO: Initializing input monitoring system for 1 devices
+[2026-02-24 16:34:48.209] INFO: Input monitoring started
+[2026-02-24 16:34:48.209] INFO: Initializing update monitoring
+[2026-02-24 16:34:48.210] INFO: Update monitoring started
+[2026-02-24 16:34:48.210] INFO: Bar dimensions: 1920x80
+[2026-02-24 16:34:48.210] INFO: Bongo Cat Overlay configured successfully
+[2026-02-24 16:34:48.210] INFO: Starting Wayland event loop
+[2026-02-24 16:34:48.210] WARNING: Failed to open /dev/input/event3
+[2026-02-24 16:34:48.210] INFO: input: Successfully opened 0/1 input devices; init time 0.022ms (0.000022sec)
+[2026-02-24 16:34:48.210] WARNING: update: Stop update thread, not needed
+[2026-02-24 16:34:48.210] INFO: Update thread cleanup completed (via pthread_cancel)
+[2026-02-24 16:34:48.210] INFO: Update monitoring stopped
+[2026-02-24 16:34:48.210] INFO: Start udev monitoring
+[2026-02-24 16:34:48.210] ERROR: input: All input devices became unavailable
+[2026-02-24 16:34:48.210] ERROR: input: All input devices are unavailable
+[2026-02-24 16:34:48.210] INFO: Input thread cleanup completed (via pthread_cancel)
+[2026-02-24 16:34:48.210] INFO: Input monitoring stopped
+[2026-02-24 16:34:48.211] WARNING: wl_callback.done: fallback released stuck buffer 0 (missed wl_buffer.release)
+[2026-02-24 16:34:49.253] INFO: Received signal 2, shutting down gracefully
+[2026-02-24 16:34:49.253] INFO: Wayland event loop exited
+[2026-02-24 16:34:49.253] INFO: Main loop exited, shutting down
+[2026-02-24 16:34:49.253] INFO: Stop threads...
+[2026-02-24 16:34:49.260] INFO: Animation thread cleanup completed (via pthread_cancel)
+[2026-02-24 16:34:49.260] INFO: Animation thread main loop exited
+[2026-02-24 16:34:49.354] INFO: Performing cleanup...
+[2026-02-24 16:34:49.355] INFO: Cleanup complete, exiting with code 0

@@ -1,0 +1,52 @@
+* {
+    bg: #0b1622;        /* Полупрозрачный темно-синий */
+    bg-selected: #162a3f; /* Глубокий синий для выбора */
+    fg: #00d7ff;         /* Электрический голубой */
+    fg-alt: #00ffff;     /* Яркий циан */
+    
+    background-color: transparent;
+    text-color: @fg;
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    width: 30%;
+    background-color: @bg;
+    border: 2px;
+    border-color: @fg;
+    border-radius: 12px;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    padding: 20px;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+prompt {
+    text-color: @fg-alt;
+    margin: 0 10px 0 0;
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+    fixed-height: true;
+}
+
+element {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+element selected {
+    background-color: @bg-selected;
+    text-color: @fg-alt;
+}
