@@ -1,24 +1,14 @@
-# Синий поток мыслей, как у моего деда. 
+# Basic blue themed rice! 
 
-Мой персональный и первый "rice" на базе **EndeavourOS** (Arch Linux).
+My first rice based on **EndeavourOS** (Arch Linux). Aslo my first repo
 
-## Скриншоты
-> Здесь скоро будет скриншот твоего рабочего стола!
-> Чтобы добавить его: создай папку `screenshots`, положи туда файл и пропиши путь тут:
-> `![Desktop Preview](screenshots/preview.png)`
+## Pics
+> 
 
-## Компоненты
+## Stuff
 - **OS:** EndeavourOS (Arch-based)
 - **WM:** [Hyprland](https://hyprland.org/) (Wayland)
 - **Bar:** Waybar
 - **Terminal:** Kitty
 - **Shell:** Zsh 
 - **Runner:** Rofi
-
-## Установка
-
-> **Внимание:** Перед установкой сделайте бэкап своих конфигов!
-
-1. Склонируйте репозиторий:
-```bash
-git clone [https://github.com/azurexd/blueshark_arch.git](https://github.com/azurexd/blueshark_arch.git) ~/dotfiles
