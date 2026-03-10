@@ -1,69 +1,81 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "type": "file",
-        "source": "~/.config/fastfetch/shark",
+        "type": "kitty",
+        "source": "~/dotfiles/pictures/fastfetch.jpg",
+        "width": 25,
+        "height": null,
         "padding": {
-            "top": 2,
-            "left": 5
-        },
-        "color": {
-            "1": "cyan",
-            "2": "blue"
+            "top": 1,
+            "left": 2
         }
     },
     "display": {
-        "separator": " ➜  "
+        "separator": "  ",
+        "color": {
+            "keys": "#00d7ff"
+        }
     },
     "modules": [
         {
-        "type": "title",
-        "color": {
-            "user": "cyan",
-            "at": "blue",
-            "host": "cyan"
+            "type": "custom",
+            "format": "\n",
+            "color": "#00d7ff"
         },
-        "padding": {
-            "top": 2
+        {
+            "type": "title",
+            "key": " ",
+            "keyColor": "#00d7ff",
+            "color": {
+                "user": "#00d7ff",
+                "at": "#00d7ff",
+                "host": "#00d7ff"
+            }
         },
-
+        {
+            "type": "custom",
+            "format": "────────────────────────────────────────",
+            "color": "#00d7ff"
         },
-        "separator",
         {
             "type": "os",
-            "key": " ",
-            "keyColor": "cyan"
+            "key": " ",
+            "keyColor": "#00d7ff"
         },
         {
             "type": "kernel",
-            "key": " ",
-            "keyColor": "cyan"
+            "key": " ",
+            "keyColor": "#00d7ff"
         },
         {
             "type": "packages",
-            "key": " ",
-            "keyColor": "cyan"
+            "key": " ",
+            "keyColor": "#00d7ff"
         },
         {
             "type": "wm",
-            "key": " ",
-            "keyColor": "cyan"
+            "key": " ",
+            "keyColor": "#00d7ff"
         },
         {
             "type": "terminal",
-            "key": " ",
-            "keyColor": "cyan"
+            "key": " ",
+            "keyColor": "#00d7ff"
+        },
+        {
+            "type": "custom",
+            "format": "────────────────────────────────────────",
+            "color": "#00d7ff"
         },
         {
             "type": "cpu",
-            "key": " ",
-            "keyColor": "blue"
+            "key": " ",
+            "keyColor": "#00d7ff"
         },
         {
             "type": "memory",
-            "key": " ",
-            "keyColor": "blue"
-        },
-        "break",
+            "key": "󰍛 ",
+            "keyColor": "#00d7ff"
+        }
     ]
 }
