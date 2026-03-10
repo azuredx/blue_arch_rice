@@ -1,8 +1,8 @@
 * {
-    bg: #0b1622;        /* Полупрозрачный темно-синий */
-    bg-selected: #162a3f; /* Глубокий синий для выбора */
-    fg: #00d7ff;         /* Электрический голубой */
-    fg-alt: #00ffff;     /* Яркий циан */
+    bg: #0b1622;        
+    bg-selected: #162a3f; 
+    fg: #00d7ff;         
+    fg-alt: #00ffff;     
     
     background-color: transparent;
     text-color: @fg;

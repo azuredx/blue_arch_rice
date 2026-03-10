@@ -1,5 +1,0 @@
-[2026-02-24 16:24:25.968] WARNING: wl_callback.done: fallback released stuck buffer 0 (missed wl_buffer.release)
-[2026-02-24 16:24:26.536] WARNING: wl_callback.done: fallback released stuck buffer 0 (missed wl_buffer.release)
-[2026-02-24 16:24:26.785] WARNING: wl_callback.done: fallback released stuck buffer 0 (missed wl_buffer.release)
-[2026-02-24 16:24:26.802] WARNING: wl_callback.done: fallback released stuck buffer 0 (missed wl_buffer.release)
-[2026-02-24 16:24:29.768] WARNING: wl_callback.done: fallback released stuck buffer 0 (missed wl_buffer.release)

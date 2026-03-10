@@ -8,43 +8,10 @@
     "modules-center": ["clock"],
     "modules-right": ["hyprland/language", "cpu", "memory", "tray"],
 
-    // ──────────────────────────────────────────────────────────────
-    // cava — визуализатор полосок под музыку (встроенный модуль)
-    // ──────────────────────────────────────────────────────────────
-    //"cava": {
-    //    "framerate": 60,                  // плавность обновления
-    //    "autosens": 1,                    // авто-чувствительность (рекомендую включить)
-    //    "sensitivity": 1,                // базовая чувствительность (30–80 под музыку)
-    //    "bars": 14,                       // количество полосок (маленькие, как просил)
-    //    "lower_cutoff_freq": 10,
-    //    "higher_cutoff_freq": 20000,
-    //    "method": "pipewire",             // если PipeWire (стандарт в EndeavourOS)
-    //    // "method": "pulse",             // раскомментируй, если PulseAudio
-    //    "source": "auto",
-     //   "stereo": true,
-     //   "bar_delimiter": 0,
-     //   "noise_reduction": 0.85,
-     //   "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
-     //   "format": "{}",                   // только бары без текста
-     //   "on-click": "pavucontrol",        // клик — открыть микшер
-     //   "tooltip": false,
-     //   "max-length": 30                  // ширина модуля
-    //},
-
-    // Твои модули без изменений
+    
     "hyprland/workspaces": {
         "format": "{id}",
         "on-click": "activate"
-    },
-    "custom/cava": {
-        "format": "{}",
-        // "exec": "~/.config/waybar/scripts/cava.sh",
-        "interval": "once",
-        "return-type": "text",
-        "max-length": 30,
-        "escape": true,
-        "on-click": "pavucontrol",
-        "tooltip": false
     },
 
     "custom/shark": {

@@ -1,4 +1,0 @@
-┌[azure@azure-pc] [/dev/pts/0] [130]
-└[~/.config/bongocat]> ┌[azure@azure-pc] [/dev/pts/0] 
-└[~/.config/bongocat]> ls -l /dev/input/event3
-crw-rw---- 1 root input 13, 67 фев 24 16:33 /dev/input/event3
