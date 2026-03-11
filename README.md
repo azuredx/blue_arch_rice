@@ -3,10 +3,9 @@
 My first rice based on **EndeavourOS**. Aslo my first repo
 
 ## Pics
-> ![Hyprland Main and Waybar](screenshots/main.png)
-> ![FastFetch](screenshots/fastfetch.png)
-> ![Hyprlock](screenshots/main.png)
-> ![Rofi](screenshots/rofi.png)
+| | |
+| ![Hyprland Main](screenshots/main.png) | ![FastFetch](screenshots/fastfetch.png) |
+| ![Hyprlock](screenshots/hyprlock.png) | ![Rofi](screenshots/rofi.png) |
 
 ## Stuff
 - **OS:** EndeavourOS (Arch-based)
@@ -15,3 +14,17 @@ My first rice based on **EndeavourOS**. Aslo my first repo
 - **Terminal:** Kitty
 - **Shell:** Zsh 
 - **Runner:** Rofi
+- **Lock screen:** Hyprlock
+- **Notifications:** Mako
+
+## Hotkeys
+
+| Key | Action |
+|---------|----------|
+| `SUPER + Q` | Open terminal |
+| `SUPER + C` | Close window |
+| `SUPER + E` | File manager |
+| `SUPER + R` | Rofi (apps) |
+| `SUPER + B` | Browser (Zen) |
+| `SUPER + L` | Lock screen (Hyprlock) |
+| `SUPER + Print` | Make screenshot to clip |
