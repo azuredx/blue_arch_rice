@@ -3,12 +3,15 @@
 My first rice based on **EndeavourOS**. Aslo my first repo
 
 ## Pics
+
 > ![Hyprland Main](screenshots/main.png)  
 > ![FastFetch](screenshots/fastfetch.png) 
 > ![Hyprlock](screenshots/hyprlock.png) 
 > ![Rofi](screenshots/rofi.png) 
+> ![Usage case](screenshots/usage.png)
 
 ## Stuff
+
 - **OS:** EndeavourOS (Arch-based)
 - **WM:** [Hyprland](https://hyprland.org/) (Wayland)
 - **Bar:** Waybar
