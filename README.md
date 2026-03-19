@@ -32,3 +32,17 @@ My first rice based on **EndeavourOS**. Aslo my first repo
 | `SUPER + B` | Browser (Zen) |
 | `SUPER + L` | Lock screen (Hyprlock) |
 | `SUPER + Print` | Make screenshot to clip |
+
+## Install
+
+**Clone repo**
+```bash
+git clone [https://github.com/azuredx/blue_arch_rice.git](https://github.com/azuredx/blue_arch_rice.git)
+cd blue_arch_rice
+```
+**launch install**
+```bash
+chmod +x install.sh
+./install.sh
+```
+You can also add any other packages before installation.
